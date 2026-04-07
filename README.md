@@ -63,7 +63,3 @@ The dashboard enables users to explore species distributions, physical attribute
 ## Dataset
 
 Palmer Penguins — collected by Dr. Kristen Gorman and the Palmer Station LTER program. Source: [allisonhorst.github.io/palmerpenguins](https://allisonhorst.github.io/palmerpenguins/)
-
----
-
-> *"In God we trust; all others must bring data."* — W. Edwards Deming
