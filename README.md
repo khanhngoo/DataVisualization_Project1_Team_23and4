@@ -1,32 +1,69 @@
-# palmer-penguins-dashboard
+# Palmer Penguins Interactive Dashboard
 
-Project 1 for the course COMP4010 - Data Visualization of Team 23 and 4, analyzing the Palmer Penguins dataset through notebook-based exploration and an interactive dashboard.
+An interactive data visualization dashboard exploring the Palmer Penguins dataset through machine learning, statistical analysis, and dynamic visual storytelling.
 
-## Project Description
+---
 
-This project studies the Palmer Penguins dataset to identify patterns across species, island, body measurements, and other biological attributes. The repository supports both exploratory analysis and presentation-ready outputs for the course deliverables.
+## Project Overview
+
+This project is part of the **Data Visualization** course (Project 1). Our team built a comprehensive, interactive dashboard that applies core visualization concepts to the [Palmer Penguins dataset](https://allisonhorst.github.io/palmerpenguins/) — a rich dataset covering physical measurements of three penguin species across three Antarctic islands.
+
+The dashboard enables users to explore species distributions, physical attribute relationships, and machine learning insights through a fully interactive, accessible interface.
+
+---
 
 ## Features
 
-- Analysis notebooks for visual exploration and machine learning experiments
-- An interactive dashboard for presenting insights in a browser
-- A dedicated space for reports, slides, and other submission materials
+- **Data Preprocessing Pipeline** — automated handling of missing values, filtering, and aggregation
+- **Core Visualizations** — scatter plots, bar charts, and distribution plots across species and islands
+- **Text Visualization** — dynamic annotations and markdown summaries that narrate the data story
+- **Interactive Controls** — dropdowns (species, island, sex), sliders, and hover tooltips with live chart updates
+- **Machine Learning Integration** — K-Means clustering visualization and PCA dimensionality reduction plot
 
-## Getting Started
+---
 
-To run the dashboard locally:
+## Team Contributions
 
-```bash
-cd dashboard
-npm install
-npm run dev
-```
+### Lai Duc Minh — Data & ML Lead
 
-Then open `http://localhost:3000` in your browser.
+- Built the end-to-end data preprocessing pipeline (missing value imputation, type casting, filtering, aggregation)
+- Implemented the machine learning visualization component (K-Means clustering and PCA plot)
+- Authored the **Data Architecture** section of the Engineering Design Report, including justification of data flow decisions
+- Managed dataset versioning and ensured pipeline reproducibility
 
-## Contributions
+### Nguyen Dai Nghia — Core Visualization Lead
 
-- Add data exploration and analysis work under `notebooks/`
-- Keep dashboard development inside `dashboard/`
-- Store reports, slides, and related deliverables in `materials/`
-- Use clear commits so the project history stays easy to review
+- Designed and implemented all foundational charts: scatter plot of bill dimensions colored by species, bar charts aggregating traits across islands, and distribution plots for flipper length and body mass
+- Authored the **Design Elements** section of the Engineering Design Report (color, shape, and size rationale)
+- Established the visual language and chart consistency across the dashboard
+
+### Ngo Dinh Khanh — Interactivity Lead
+
+- Built all interactive and dynamic dashboard elements: species, island, and sex filter dropdowns, sliders for continuous attribute filtering, and hover effects with live chart update callbacks
+- Authored the **Accessibility & Interactivity** section of the Engineering Design Report
+- Conducted cross-browser and usability testing
+
+### Nguyen Anh Duc — Report & Presentation Lead
+
+- Authored the **Vision & Style** section of the Engineering Design Report (narrative story, aesthetic decisions)
+- Authored the **Technical Rigor** section (technology stack justification and code documentation)
+- Built the 5-slide pitch presentation
+- Maintained the **Design Iteration Log** — recording all rejected designs, down-selection rationale, and evolution of key design decisions throughout the project
+
+---
+
+## Deliverables
+
+- [x] Interactive dashboard source code
+- [x] 5-slide pitch presentation
+- [x] Short Engineering Design Report
+
+---
+
+## Dataset
+
+Palmer Penguins — collected by Dr. Kristen Gorman and the Palmer Station LTER program. Source: [allisonhorst.github.io/palmerpenguins](https://allisonhorst.github.io/palmerpenguins/)
+
+---
+
+> *"In God we trust; all others must bring data."* — W. Edwards Deming
